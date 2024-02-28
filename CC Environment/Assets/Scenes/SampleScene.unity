@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.31959033, g: 0.28899267, b: 0.2849548, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -401,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f4c758a5796c84fcd955fcc89718b77c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.26
+      value: -0.46
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f4c758a5796c84fcd955fcc89718b77c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -439,6 +439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: idle rat
       objectReference: {fileID: 0}
+    - target: {fileID: 3985271169885152068, guid: f4c758a5796c84fcd955fcc89718b77c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c43d633301cf54c95a5d88ae5ee039d9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
