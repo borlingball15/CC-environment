@@ -1982,10 +1982,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f361910638274809bc6a5eb9a5b8a4a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1761151239}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f361910638274809bc6a5eb9a5b8a4a, type: 3}
 --- !u!1001 &433086178
 PrefabInstance:
@@ -9724,27 +9721,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d3f526198dae440bb2ce6005d86055, type: 3}
---- !u!1 &1761151236 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f361910638274809bc6a5eb9a5b8a4a, type: 3}
-  m_PrefabInstance: {fileID: 421487060}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1761151239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761151236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4afa2cd63617e438faa1440c6821f096, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portName: /dev/cu.usbmodern1101
-  baudRate: 9600
-  moveSpeed: 1
-  rotateSpeed: 1
 --- !u!1001 &1805645964
 PrefabInstance:
   m_ObjectHideFlags: 0
