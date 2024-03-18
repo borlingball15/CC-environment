@@ -2177,12 +2177,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 437824288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 437824289}
 --- !u!1001 &439770470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2604,12 +2601,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 528394209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 528394210}
 --- !u!1001 &531735297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3462,12 +3456,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 665803138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 665803139}
 --- !u!1 &665846874
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,12 +4349,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 753693733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 753693734}
 --- !u!1001 &767080136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5494,7 +5482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114023058375386772, guid: bb5e6aea88a650f4a8317e74940b0ea4, type: 3}
       propertyPath: ManagerState
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7351,12 +7339,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1317504243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 1317504244}
 --- !u!1001 &1326527904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7423,6 +7408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1384650560}
+  - component: {fileID: 1384650561}
   m_Layer: 0
   m_Name: areaLight
   m_TagString: Untagged
@@ -7455,6 +7441,18 @@ Transform:
   - {fileID: 1317504245}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1384650561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384650559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1391437106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8172,12 +8170,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1433914558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 1433914559}
 --- !u!1001 &1471717951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8614,7 +8609,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1524863247}
   - component: {fileID: 1524863246}
-  - component: {fileID: 1524863249}
   - component: {fileID: 1524863248}
   m_Layer: 0
   m_Name: Area Light (7)
@@ -8709,27 +8703,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524863245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 1524863246}
---- !u!114 &1524863249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524863245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 0}
 --- !u!1001 &1535054892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10357,12 +10333,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1875123337}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 1875123338}
 --- !u!1001 &1880103893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10808,6 +10781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1989766161}
   - component: {fileID: 1989766160}
+  - component: {fileID: 1989766162}
   m_Layer: 0
   m_Name: Area Light
   m_TagString: Untagged
@@ -10892,6 +10866,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1384650560}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1989766162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989766159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1999734657
 GameObject:
   m_ObjectHideFlags: 0
@@ -10996,12 +10982,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1999734657}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408e0bd9634224f15a3b3573132611ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f40cc449e2d2474ab06fb29de9775a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
-  baudRate: 9600
-  controlledLight: {fileID: 1999734658}
 --- !u!1001 &2037858383
 PrefabInstance:
   m_ObjectHideFlags: 0
